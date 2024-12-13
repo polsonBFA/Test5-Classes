@@ -24,7 +24,23 @@
 			]
 		}
 	}
-
+	 "settings": {
+		 "editor.inlineSuggest.enabled": false,
+   		 "editor.quickSuggestions": {
+        		"other": "off"
+		 },
+   		 "editor.inlineSuggest.suppressSuggestions": true,
+    		 "editor.suggest.selectionMode": "never",
+   		 "editor.quickSuggestionsDelay": 100,
+		 "extensions.allowed": "*"
+    		// Add more editor settings here
+ 	 }
+	"extensions.allowed":{
+		//Do not allow the intellicode extension
+		"VisualStudioExptTeam.intellicode-api-usage-examples": false,
+		"VisualStudioExptTeam.vscodeintellicode": false,
+		
+	}
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
